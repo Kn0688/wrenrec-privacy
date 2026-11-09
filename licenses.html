@@ -27,6 +27,7 @@
 <tr><td>FireRedASR2（MLX bf16 转换版）</td><td>小红书 FireRedTeam · <a href="https://github.com/FireRedTeam/FireRedASR">github.com/FireRedTeam/FireRedASR</a></td><td>Apache-2.0</td></tr>
 <tr><td>Parakeet TDT 0.6B（MLX 8bit 转换版）</td><td>NVIDIA Corporation · <a href="https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2">huggingface.co/nvidia/parakeet-tdt-0.6b-v2</a></td><td>CC-BY-4.0</td></tr>
 <tr><td>Qwen3-ASR 0.6B（MLX 8bit）</td><td>阿里巴巴 Qwen · <a href="https://huggingface.co/Qwen/Qwen3-ASR-0.6B">huggingface.co/Qwen/Qwen3-ASR-0.6B</a></td><td>Apache-2.0</td></tr>
+<tr><td>pyannote speaker-diarization-community-1（FluidAudio Core ML 转换版，App 内嵌）</td><td>pyannoteAI · <a href="https://huggingface.co/pyannote/speaker-diarization-community-1">Community-1</a> · <a href="https://huggingface.co/FluidInference/speaker-diarization-coreml">FluidAudio Core ML conversion</a></td><td>CC-BY-4.0</td></tr>
 <tr><td>silero-vad（App 内嵌）</td><td>snakers4 · <a href="https://github.com/snakers4/silero-vad">github.com/snakers4/silero-vad</a></td><td>MIT</td></tr>
 <tr><td>CT-Transformer 标点模型（App 内嵌，MLX 8bit）</td><td>阿里达摩院 FunASR · <a href="https://github.com/modelscope/FunASR">github.com/modelscope/FunASR</a></td><td>MIT</td></tr>
 </table>
@@ -41,8 +42,8 @@
 <tr><td>inner-mlx-audio-swift（本应用语音识别引擎，基于 Blaizzy/mlx-audio-swift）</td><td>MIT</td></tr>
 </table>
 <h3>Apache-2.0 许可</h3>
-<p>async-http-client · swift-algorithms · swift-asn1 · swift-async-algorithms · swift-atomics · swift-certificates · swift-collections · swift-crypto · swift-distributed-tracing · swift-http-structured-headers · swift-http-types · swift-huggingface · swift-jinja · swift-log · swift-nio · swift-nio-extras · swift-nio-http2 · swift-nio-ssl · swift-nio-transport-services · swift-numerics · swift-service-context · swift-service-lifecycle · swift-syntax · swift-system · swift-transformers · swift-xet</p>
-<p class="meta" style="color:#86868b;font-size:14px">以上组件分属 Apple、Swift Server Workgroup、HuggingFace 等，均以 Apache License 2.0 发布。</p>
+<p>FluidAudio · async-http-client · swift-algorithms · swift-asn1 · swift-async-algorithms · swift-atomics · swift-certificates · swift-collections · swift-crypto · swift-distributed-tracing · swift-http-structured-headers · swift-http-types · swift-huggingface · swift-jinja · swift-log · swift-nio · swift-nio-extras · swift-nio-http2 · swift-nio-ssl · swift-nio-transport-services · swift-numerics · swift-service-context · swift-service-lifecycle · swift-syntax · swift-system · swift-transformers · swift-xet</p>
+<p class="meta" style="color:#86868b;font-size:14px">以上组件分属 FluidInference、Apple、Swift Server Workgroup、HuggingFace 等，均以 Apache License 2.0 发布。</p>
 
 <h2>三、许可全文</h2>
 
@@ -69,7 +70,7 @@ SOFTWARE.</pre>
 <p>全文见 <a href="https://www.apache.org/licenses/LICENSE-2.0.txt">apache.org/licenses/LICENSE-2.0.txt</a>。要点：允许商用、修改、分发，须保留版权与许可声明；对修改的文件须标注；按"原样"提供、不含担保。</p>
 
 <h3>Creative Commons Attribution 4.0 International (CC-BY-4.0)</h3>
-<p>全文见 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">creativecommons.org/licenses/by/4.0</a>。要点：允许以任何目的（含商用）使用、复制、再分发，须注明原作者（NVIDIA Corporation）并提供许可链接。</p>
+<p>全文见 <a href="https://creativecommons.org/licenses/by/4.0/legalcode">creativecommons.org/licenses/by/4.0</a>。要点：允许以任何目的（含商用）使用、复制、再分发，须注明原作者（NVIDIA Corporation、pyannoteAI）并提供许可链接。Community-1 Core ML 转换模型的来源与声明见 <a href="https://huggingface.co/FluidInference/speaker-diarization-coreml">FluidAudio 模型页</a>。</p>
 
 <hr>
 <h2>Open-Source Licenses (English)</h2>
@@ -81,12 +82,13 @@ SOFTWARE.</pre>
 <tr><td>FireRedASR2 (MLX bf16 conversion)</td><td>FireRedTeam</td><td>Apache-2.0</td></tr>
 <tr><td>Parakeet TDT 0.6B (MLX 8bit conversion)</td><td>NVIDIA Corporation</td><td>CC-BY-4.0</td></tr>
 <tr><td>Qwen3-ASR 0.6B (MLX 8bit)</td><td>Alibaba Qwen</td><td>Apache-2.0</td></tr>
+<tr><td>pyannote speaker-diarization-community-1 (FluidAudio Core ML conversion, bundled)</td><td>pyannoteAI · <a href="https://huggingface.co/FluidInference/speaker-diarization-coreml">FluidAudio Core ML conversion</a></td><td>CC-BY-4.0</td></tr>
 <tr><td>silero-vad (bundled)</td><td>snakers4</td><td>MIT</td></tr>
 <tr><td>CT-Transformer punctuation model (bundled, MLX 8bit)</td><td>FunASR (Alibaba DAMO)</td><td>MIT</td></tr>
 </table>
 <h3>Swift Packages</h3>
 <p><strong>MIT:</strong> mlx-swift, mlx-swift-lm, yyjson, EventSource, inner-mlx-audio-swift.<br>
-<strong>Apache-2.0:</strong> async-http-client, swift-algorithms, swift-asn1, swift-async-algorithms, swift-atomics, swift-certificates, swift-collections, swift-crypto, swift-distributed-tracing, swift-http-structured-headers, swift-http-types, swift-huggingface, swift-jinja, swift-log, swift-nio, swift-nio-extras, swift-nio-http2, swift-nio-ssl, swift-nio-transport-services, swift-numerics, swift-service-context, swift-service-lifecycle, swift-syntax, swift-system, swift-transformers, swift-xet (by Apple, the Swift Server Workgroup, and HuggingFace).</p>
+<strong>Apache-2.0:</strong> FluidAudio, async-http-client, swift-algorithms, swift-asn1, swift-async-algorithms, swift-atomics, swift-certificates, swift-collections, swift-crypto, swift-distributed-tracing, swift-http-structured-headers, swift-http-types, swift-huggingface, swift-jinja, swift-log, swift-nio, swift-nio-extras, swift-nio-http2, swift-nio-ssl, swift-nio-transport-services, swift-numerics, swift-service-context, swift-service-lifecycle, swift-syntax, swift-system, swift-transformers, swift-xet (by FluidInference, Apple, the Swift Server Workgroup, and HuggingFace).</p>
 <p>Full license texts: <a href="https://opensource.org/license/mit">MIT</a> · <a href="https://www.apache.org/licenses/LICENSE-2.0.txt">Apache-2.0</a> · <a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC-BY-4.0</a>.</p>
 </body>
 </html>
